@@ -1,0 +1,22 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.header {
+  color: cornflowerblue;
+  text-align: center;
+  font-size: 50px;
+}
+
+.paragraph {
+  border: 2px solid cornflowerblue;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+  font-size: 30px;
+  color: cornflowerblue;
+  max-width: 500px;
+}
