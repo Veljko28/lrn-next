@@ -15,6 +15,9 @@ export default function Nav() {
         <li>
           <Link href="http://localhost:3000/articles">Articles</Link>
         </li>
+         <li>
+          <Link href="http://localhost:3000/kanye">Kanye</Link>
+        </li>
       </ul>
     </nav>
   )

@@ -1,0 +1,29 @@
+.header {
+  color: cornflowerblue;
+  text-align: center;
+  font-size: 50px;
+}
+
+.cnt {
+   display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.button {
+  background-color: cornflowerblue;
+  padding: 10px;
+  font-size: 20px;
+  color: aliceblue;
+  border: none;
+  border-radius: 3px;
+}
+
+.button:hover {
+  opacity: 90%;
+}
+
+.quote {
+  text-align: center;
+  color: cornflowerblue;
+}
