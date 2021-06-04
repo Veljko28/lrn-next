@@ -4,16 +4,16 @@ import styles from '../styles/Nav.module.css';
 export default function Nav() {
   return (
     <nav className={styles.nav}>
-      <h2 className={styles.title}>Articles</h2>
+      <Link href="http://localhost:3000/"><h2 className={styles.title}>Articles</h2></Link>
       <ul>
         <li>
-          <Link href="home">Home</Link>
+          <Link href="http://localhost:3000/home">Home</Link>
         </li>
         <li>
-          <Link href="about">About</Link>
+          <Link href="http://localhost:3000/about">About</Link>
         </li>
         <li>
-          <Link href="articles">Articles</Link>
+          <Link href="http://localhost:3000/articles">Articles</Link>
         </li>
       </ul>
     </nav>
